@@ -1,3 +1,4 @@
+# Imports
 from pymongo import MongoClient
 
 # Connecting to MongoDB, MongoDB Cluster, and pytech database
@@ -5,10 +6,8 @@ url = url = 'mongodb+srv://admin:admin@cluster0.zkuaeue.mongodb.net/?retryWrites
 client = MongoClient(url)
 db = client.pytech
 
-# Going to students collection
+# Going to students collection and find all students in the collection 
 students = db.students
-
-# find all students in the collection 
 student_list = students.find({})
 
 # display message 

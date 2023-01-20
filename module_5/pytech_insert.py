@@ -13,7 +13,7 @@ student_list = students.find({})
 # adam Smith's data document 
 adam = {
     "student_id": "1007",
-    "first_name": "adam",
+    "first_name": "Adam",
     "last_name": "Smith",
     "enrollments": [
         {
